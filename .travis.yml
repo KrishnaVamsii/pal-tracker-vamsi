@@ -1,0 +1,10 @@
+language: java
+deploy:
+  provider: cloudfoundry
+  username: $CF_USERNAME
+  password: $CF_PASSWORD
+  api: $CF_API_URL
+  organization: Pcf-training
+  space: augbatch
+  manifest: manifest.yml       # (optional)  Defaults to manifest.yml.
+  app_name: pal-tracker-vamsi               # (optional)
