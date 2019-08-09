@@ -7,4 +7,4 @@ deploy:
   organization: $CF_ORG
   space: $CF_SPACE
   manifest: manifest.yml       # (optional)  Defaults to manifest.yml.
-  app_name: pal-tracker-krishna                # (optional)
+  app_name: pal-tracker-vamsi                # (optional)
